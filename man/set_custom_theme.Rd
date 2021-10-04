@@ -9,9 +9,6 @@ set_custom_theme(base_size = 14)
 \arguments{
 \item{base_size}{Defining the base size of the font.}
 }
-\value{
-
-}
 \description{
 This function is just a wrapper around the theme_barlow() function.
 It applies the theme globally and makes sure that the

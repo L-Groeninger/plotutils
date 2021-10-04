@@ -9,9 +9,6 @@ theme_barlow(base_size = 14)
 \arguments{
 \item{base_size}{Defining the base size of the font.}
 }
-\value{
-
-}
 \description{
 This function builds upon the ggplot2::theme_minimal() theme
 and adds/rearranges some grid elements.
