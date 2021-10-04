@@ -10,9 +10,11 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    curl,
     ggplot2,
     ggtext,
     grid,
+    jsonlite,
     showtext,
     sysfonts
 RoxygenNote: 7.1.2
