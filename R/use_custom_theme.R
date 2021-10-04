@@ -1,7 +1,22 @@
 
 
-# Defining the theme function
-
+#' Barlow theme function
+#'
+#' This function builds upon the ggplot2::theme_minimal() theme
+#' and adds/rearranges some grid elements.
+#'
+#' @param base_size Defining the base size of the font.
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' library(ggplot2)
+#' library(showtext)
+#' showtext_auto() # Necessary for certain graphics devices to display the custom font
+#'
+#' ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_barlow()
+#'
 theme_barlow <- function(base_size = 14) {
   ggplot2::theme_minimal(
     base_size = base_size,
@@ -53,8 +68,20 @@ theme_barlow <- function(base_size = 14) {
     )
 }
 
-# Applying the custom theme function
-
+#' Applying the custom theme function
+#'
+#' This function is just a wrapper around the theme_barlow() function.
+#' It applies the theme globally and makes sure that the
+#' required "Barlow" font is installed.
+#'
+#' @param base_size Defining the base size of the font.
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' set_custom_theme(base_size = 16)
+#'
 set_custom_theme <- function(base_size = 14) {
 
   sysfonts::font_add_google("Barlow", "Barlow")
