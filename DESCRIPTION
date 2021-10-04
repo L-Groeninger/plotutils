@@ -1,11 +1,15 @@
 Package: plotutils
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Setting a custom ggplot2 theme
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R:
+    person(given = "Lukas",
+           family = "Gröninger",
+           role = c("aut", "cre"),
+           email = "lukas.groeninger@gmail.com")
+Description: A package created to set my own custom ggplot2 theme
+    globally. It is built upon the ggplot2 theme_minimal() and
+    rearranges title, legend, axes etc.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
