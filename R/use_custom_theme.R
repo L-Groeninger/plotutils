@@ -7,7 +7,6 @@
 #'
 #' @param base_size Defining the base size of the font.
 #'
-#' @return
 #' @export
 #'
 #' @examples
@@ -76,7 +75,6 @@ theme_barlow <- function(base_size = 14) {
 #'
 #' @param base_size Defining the base size of the font.
 #'
-#' @return
 #' @export
 #'
 #' @examples
