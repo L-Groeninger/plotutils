@@ -34,7 +34,7 @@ library(ggplot2)
 example_plot <- ggplot(mtcars, aes(x = mpg, y = disp, 
                                    colour = as.factor(cyl))) +
   geom_point() +
-  labs(title = "Relationship between Miles per Gallon and displacement",
+  labs(title = "Relationship between Miles per Gallon and Displacement",
        x = "Miles per Gallon",
        y = "Displacement",
        colour = "Cylinders")
@@ -49,7 +49,7 @@ and a cleaner look. Additionally the position of the legend is moved up.
 
 ``` r
 # Set the custom theme globally.
-plotutils::set_custom_theme()
+plotutils::set_custom_theme(base_size = 12)
 
 example_plot
 ```
