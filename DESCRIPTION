@@ -18,3 +18,5 @@ Imports:
     showtext,
     sysfonts
 RoxygenNote: 7.1.2
+URL: https://github.com/L-Groeninger/plotutils
+BugReports: https://github.com/L-Groeninger/plotutils/issues
